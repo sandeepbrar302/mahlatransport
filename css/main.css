@@ -1,0 +1,202 @@
+.height{
+    min-height: 100vh;
+}
+
+.footer {
+    opacity: 0.4;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(49, 38, 38, 0.616);
+    color: white;
+    text-align: center;
+  }
+
+.title-underline{
+    width: 280px;
+    height: 8px;
+    margin: 0 auto;
+    /* background: blue!important; */
+}
+
+.title-underline-400px{
+    width: 300px;
+    height: 8px;
+    margin: 0 auto;
+    background: yellow!important; 
+}
+
+.title-underline-experience{
+    width: 300px;
+    height: 8px;
+    margin: 0 auto;
+    background: yellow!important; 
+}
+
+.title-underline-experience2{
+    width: 300px;
+    height: 8px;
+    margin: 0 auto;
+    background: yellow!important; 
+}
+
+.title-underline-experience3{
+    width: 300px;
+    height: 8px;
+    margin: 0 auto;
+    background: yellow!important; 
+}
+.height-80{
+    min-height: 70vh;
+}
+
+.height-50{
+    min-height: 50vh;
+}
+
+
+.logo-picture{
+    background: url(../images/logo.jpeg);
+    padding: 10px;
+    width: auto;
+}
+
+.developer-picture{
+    background: url(../images/trailer_3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    width: auto;
+    height: auto;
+}
+
+.scrum-picture{
+    background: url(../images/scrumImg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ios-picture{
+    background: url(../images/iphoneimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.frontend-picture{
+    background: url(../images/frontendImg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.textcolourBlue{
+ color: blue;   
+}
+
+.textcolourLightBlue{
+    color: lightblue;   
+   }
+
+.backgroudcolorBlue{
+    background-color: lightblue;
+}
+
+.backgroudcolorYellow{
+    color: yellow!important; 
+}
+
+.padding{
+    padding-left: 0px;
+    padding-right: 2px;
+}
+
+/* .clear{
+    clear: both;
+} */
+
+.share-btn-container{
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    position: fixed;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 28px;
+    z-index:3;
+}
+
+/* .share-btn-container a i {
+    font-size: 50 px;
+} */
+
+/* .fontSize{
+    font-size: 32px;
+} */
+
+.share-btn-container a {
+    margin: 10px 0;
+    transition: 500ms;
+}
+
+.share-btn-container a:hover{
+    transform: scale(1.4);
+}
+
+.share-btn-container .fa-facebook{
+    color: #3b5998;
+}
+
+.share-btn-container .fa-twitter{
+    color: #1da1f2;
+}
+
+.share-btn-container .fa-linkedin{
+    color: #0077b5;
+}
+
+.share-btn-container .fa-whatsapp{
+    color: #25d366;
+}
+
+#contact .card:hover i,#contact .card:hover h4{
+	color: #3a90ec;
+}
+
+.contact-color{
+    color: #007bff;
+}
+
+@media (max-width: auto){
+   
+
+    .share-btn-container{
+        transform: unset;
+        top: unset;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        flex-direction: row; 
+        box-shadow: 4px 0 8px rgba(0,0,0,0.3);
+        padding: 5px 0;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    /* .marginCheckbox{
+        margin-left: 50px;
+    } */
+
+    .share-btn-container a{
+        margin: 0 32px;
+    }
+}
